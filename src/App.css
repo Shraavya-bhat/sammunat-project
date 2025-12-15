@@ -187,3 +187,50 @@ body {
   padding: 22px;
   font-size: 13px;
 }
+
+/* 📱 Mobile Responsive Fix */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .navbar ul {
+    gap: 16px;
+    font-size: 13px;
+  }
+
+  .hero {
+    padding: 80px 16px 60px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
